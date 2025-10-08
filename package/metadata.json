@@ -14,6 +14,7 @@
         "Category": "System Information",
         "Description": "Quickly switch between different users and access shutdown options",
         "Description[en-GB]": "Quickly switch between different users and access shutdown options",
+        "Description[fr]": "Changez rapidement d'utilisateur ou accédez aux options d'arrêt",
         "Description[it]": "Accedi alle opzioni di spegnimento o di cambio utente",
         "Description[nl]": "Wissel snel van gebruiker of kies één van de afsluitopties",
         "Icon": "system-shutdown",
@@ -21,6 +22,7 @@
         "License": "GPL-2.0+",
         "Name": "Shutdown or Switch",
         "Name[en_GB]": "Shutdown or Switch",
+        "Name[fr]": "Arrêter ou changer d'utilisateur",
         "Name[it]": "Spegni o cambia utente",
         "Name[nl]": "Afsluiten of gebruiker wisselen",
         "ServiceTypes": [

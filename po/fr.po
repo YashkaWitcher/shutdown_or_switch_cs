@@ -1,0 +1,226 @@
+# French translation for shutdownorswitch.
+# Copyright (C) 2024 Davide Sandonà
+# This file is distributed under the same license as the shutdownorswitch package.
+# Stephane <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: shutdownorswitch 1.1.2\n"
+"Report-Msgid-Bugs-To: https://github.com/Davide-sd/shutdown_or_switch\n"
+"POT-Creation-Date: 2025-10-05 00:00+0000\n"
+"PO-Revision-Date: 2025-10-05 00:00+0000\n"
+"Last-Translator: Stephane\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/ui/main.qml:56
+#, kde-format
+msgid "You are logged in as <b>%1</b>"
+msgstr "Vous êtes connecté en tant que <b>%1</b>"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgid "Current user"
+msgstr "Utilisateur actuel"
+
+#: package/contents/ui/main.qml:175
+#, kde-format
+msgctxt "Nobody logged in on that session"
+msgid "Unused"
+msgstr "Inutilisée"
+
+#: package/contents/ui/main.qml:189
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch to User %1"
+msgstr "Basculer vers l'utilisateur %1"
+
+#: package/contents/ui/main.qml:198
+#, kde-format
+msgctxt "@action"
+msgid "New Session"
+msgstr "Nouvelle session"
+
+#: package/contents/ui/main.qml:208
+#, kde-format
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr "Verrouiller l'écran"
+
+#: package/contents/ui/main.qml:218
+#, kde-format
+msgctxt "@action"
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: package/contents/ui/main.qml:227
+#, kde-format
+msgctxt "@action"
+msgid "Reboot..."
+msgstr "Redémarrer..."
+
+#: package/contents/ui/main.qml:235
+#, kde-format
+msgctxt "@action"
+msgid "Shutdown"
+msgstr "Éteindre"
+
+#: package/contents/ui/main.qml:243
+#, kde-format
+msgctxt "@action"
+msgid "Suspend"
+msgstr "Mettre en veille"
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgctxt "@action"
+msgid "Suspend then Hibernate"
+msgstr "Mettre en veille puis hiberner"
+
+#: package/contents/ui/main.qml:259
+#, kde-format
+msgctxt "@action"
+msgid "Hibernate"
+msgstr "Hiberner"
+
+#: package/contents/ui/configGeneral.qml:44
+#, kde-format
+msgctxt "@title:label"
+msgid "Username style:"
+msgstr "Style du nom d'utilisateur :"
+
+#: package/contents/ui/configGeneral.qml:47
+#, kde-format
+msgctxt "@option:radio"
+msgid "Full name (if available)"
+msgstr "Nom complet (si disponible)"
+
+#: package/contents/ui/configGeneral.qml:54
+#, kde-format
+msgctxt "@option:radio"
+msgid "Login username"
+msgstr "Nom d'utilisateur de connexion"
+
+#: package/contents/ui/configGeneral.qml:72
+#, kde-format
+msgctxt "@title:label"
+msgid "Show:"
+msgstr "Afficher :"
+
+#: package/contents/ui/configGeneral.qml:75
+#, kde-format
+msgctxt "@option:radio"
+msgid "Name"
+msgstr "Nom"
+
+#: package/contents/ui/configGeneral.qml:89
+#, kde-format
+msgctxt "@option:radio"
+msgid "Icon"
+msgstr "Icône"
+
+#: package/contents/ui/configGeneral.qml:103
+#, kde-format
+msgctxt "@option:radio"
+msgid "Icon and Name"
+msgstr "Icône et nom"
+
+#: package/contents/ui/configGeneral.qml:118
+#, kde-format
+msgctxt "@title:label"
+msgid "Icon:"
+msgstr "Icône :"
+
+#: package/contents/ui/configGeneral.qml:139
+#, kde-format
+msgctxt "@title:label"
+msgid "Menu Entries:"
+msgstr "Entrées du menu :"
+
+#: package/contents/ui/configGeneral.qml:141
+#, kde-format
+msgctxt "@option:check"
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: package/contents/ui/configGeneral.qml:146
+#, kde-format
+msgctxt "@option:check"
+msgid "New Session"
+msgstr "Nouvelle session"
+
+#: package/contents/ui/configGeneral.qml:151
+#, kde-format
+msgctxt "@option:check"
+msgid "Lock Screen"
+msgstr "Verrouiller l'écran"
+
+#: package/contents/ui/configGeneral.qml:156
+#, kde-format
+msgctxt "@option:check"
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: package/contents/ui/configGeneral.qml:161
+#, kde-format
+msgctxt "@option:check"
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: package/contents/ui/configGeneral.qml:166
+#, kde-format
+msgctxt "@option:check"
+msgid "Shutdown"
+msgstr "Éteindre"
+
+#: package/contents/ui/configGeneral.qml:171
+#, kde-format
+msgctxt "@option:check"
+msgid "Suspend"
+msgstr "Mettre en veille"
+
+#: package/contents/ui/configGeneral.qml:176
+#, kde-format
+msgctxt "@option:check"
+msgid "Suspend then Hibernate"
+msgstr "Mettre en veille puis hiberner"
+
+#: package/contents/ui/configGeneral.qml:181
+#, kde-format
+msgctxt "@option:check"
+msgid "Hibernate"
+msgstr "Hiberner"
+
+#: package/contents/ui/configGeneral.qml:185
+#, kde-format
+msgctxt "@title:label"
+msgid "Show text on Menu Entries:"
+msgstr "Afficher le texte sur les entrées du menu :"
+
+#: package/contents/ui/configGeneral.qml:195
+#, kde-format
+msgctxt "@title:label"
+msgid "Confirmation on Shutdown:"
+msgstr "Confirmation pour l'extinction :"
+
+#: package/contents/ui/configGeneral.qml:202
+#, kde-format
+msgctxt "@title:label"
+msgid "Confirmation on Reboot:"
+msgstr "Confirmation pour le redémarrage :"
+
+#: package/contents/ui/configGeneral.qml:209
+#, kde-format
+msgctxt "@title:label"
+msgid "Confirmation on Logout:"
+msgstr "Confirmation pour la déconnexion :"
+
+#: package/contents/config/config.qml:11
+#, kde-format
+msgctxt "@title"
+msgid "General"
+msgstr "Général"
