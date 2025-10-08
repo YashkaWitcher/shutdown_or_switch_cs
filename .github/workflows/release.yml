@@ -1,0 +1,47 @@
+name: Create plasmoid
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  create-plasmoid-file:
+
+    runs-on: ubuntu-latest
+
+    env:
+      PACKAGE_DIR: com.github.davide-sd.ip_address
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set full package directory name
+      run: |
+        echo "PACKAGE_NAME=${PACKAGE_DIR}-${{ github.ref_name }}" >> $GITHUB_ENV
+
+    - name: Debug current directory
+      run: |
+        pwd
+        ls -R
+
+    - name: Prepare package directory
+      working-directory: ${{ github.workspace }}
+      run: |
+        mkdir -p dist/${PACKAGE_DIR}
+        cp -r package/contents dist/${PACKAGE_DIR}
+        cp -r package/translations dist/${PACKAGE_DIR}
+        cp -r package/metadata.json dist/${PACKAGE_DIR}
+
+    - name: Create zip archive
+      run: |
+        cd dist
+        zip -r ${PACKAGE_NAME}.zip ${PACKAGE_DIR}
+        mv ${PACKAGE_NAME}.zip ${PACKAGE_NAME}.plasmoid
+
+    - name: Upload release asset
+      uses: softprops/action-gh-release@v2
+      with:
+        files: dist/${{ env.PACKAGE_NAME }}.plasmoid
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
