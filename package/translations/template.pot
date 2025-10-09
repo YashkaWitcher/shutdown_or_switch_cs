@@ -1,5 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Translation of shutdownorswitch in LANGUAGE
+# Copyright (C) 2025
 # This file is distributed under the same license as the shutdownorswitch package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shutdownorswitch\n"
 "Report-Msgid-Bugs-To: https://github.com/Davide-sd/shutdown_or_switch\n"
-"POT-Creation-Date: 2025-10-05 00:00+0000\n"
+"POT-Creation-Date: 2025-10-09 09:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,210 +17,183 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: package/contents/ui/main.qml:56
-#, kde-format
-msgid "You are logged in as <b>%1</b>"
+#: ../metadata.json
+msgid "Shutdown or Switch"
 msgstr ""
 
-#: package/contents/ui/main.qml:145
-#, kde-format
-msgid "Current user"
+#: ../metadata.json
+msgid "Quickly switch between different users and access shutdown options"
 msgstr ""
 
-#: package/contents/ui/main.qml:175
-#, kde-format
-msgctxt "Nobody logged in on that session"
-msgid "Unused"
+#: ../contents/config/config.qml
+msgctxt "@title"
+msgid "General"
 msgstr ""
 
-#: package/contents/ui/main.qml:189
-#, kde-format
-msgctxt "@action:button"
-msgid "Switch to User %1"
-msgstr ""
-
-#: package/contents/ui/main.qml:198
-#, kde-format
-msgctxt "@action"
-msgid "New Session"
-msgstr ""
-
-#: package/contents/ui/main.qml:208
-#, kde-format
-msgctxt "@action"
-msgid "Lock Screen"
-msgstr ""
-
-#: package/contents/ui/main.qml:218
-#, kde-format
-msgctxt "@action"
-msgid "Log Out"
-msgstr ""
-
-#: package/contents/ui/main.qml:227
-#, kde-format
-msgctxt "@action"
-msgid "Reboot..."
-msgstr ""
-
-#: package/contents/ui/main.qml:235
-#, kde-format
-msgctxt "@action"
-msgid "Shutdown"
-msgstr ""
-
-#: package/contents/ui/main.qml:243
-#, kde-format
-msgctxt "@action"
-msgid "Suspend"
-msgstr ""
-
-#: package/contents/ui/main.qml:251
-#, kde-format
-msgctxt "@action"
-msgid "Suspend then Hibernate"
-msgstr ""
-
-#: package/contents/ui/main.qml:259
-#, kde-format
-msgctxt "@action"
-msgid "Hibernate"
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:44
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Username style:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:47
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:radio"
 msgid "Full name (if available)"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:54
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:radio"
 msgid "Login username"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:72
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Show:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:75
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:radio"
 msgid "Name"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:89
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:radio"
 msgid "Icon"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:103
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:radio"
 msgid "Icon and Name"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:118
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Icon:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:139
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Menu Entries:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:141
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Users"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:146
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "New Session"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:151
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Lock Screen"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:156
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Log Out"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:161
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Restart"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:166
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Shutdown"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:171
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Suspend"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:176
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Suspend then Hibernate"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:181
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@option:check"
 msgid "Hibernate"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:185
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Show text on Menu Entries:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:195
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Confirmation on Shutdown:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:202
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Confirmation on Reboot:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:209
-#, kde-format
+#: ../contents/ui/configGeneral.qml
 msgctxt "@title:label"
 msgid "Confirmation on Logout:"
 msgstr ""
 
-#: package/contents/config/config.qml:11
-#, kde-format
-msgctxt "@title"
-msgid "General"
+#: ../contents/ui/main.qml
+msgid "You are logged in as <b>%1</b>"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Current user"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "Nobody logged in on that session"
+msgid "Unused"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action:button"
+msgid "Switch to User %1"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "New Session"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Lock Screen"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Log Out"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Reboot..."
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Shutdown"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Suspend"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Suspend then Hibernate"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgctxt "@action"
+msgid "Hibernate"
 msgstr ""
