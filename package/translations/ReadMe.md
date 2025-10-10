@@ -36,7 +36,7 @@ Since KDE Frameworks v5.37, translations can be bundled with the zipped `*.plasm
 The binary `.mo` translation files are placed in `package/contents/locale/` so you may want to add `*.mo` to your `.gitignore`.
 
 ```
-package/contents/locale/fr/LC_MESSAGES/plasma_applet_org.kde.plasma.shutdownorswitch.mo
+package/contents/locale/fr/LC_MESSAGES/plasma_applet_com.github.davide-sd.shutdownorswitch.mo
 ```
 
 ## Links

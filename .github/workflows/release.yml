@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PACKAGE_DIR: org.kde.plasma.shutdownorswitch
+      PACKAGE_DIR: com.github.davide-sd.shutdownorswitch
 
     steps:
     - name: Checkout code
