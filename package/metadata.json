@@ -19,7 +19,7 @@
         "Description[nl]": "Wissel snel van gebruiker of kies één van de afsluitopties",
         "Description[pl]": "Szybko przełączaj się między użytkownikami i uzyskaj dostęp do opcji wyłączania",
         "Icon": "system-shutdown",
-        "Id": "com.github.davide-sd.shutdownorswitch",
+        "Id": "org.kde.plasma.shutdownorswitch",
         "License": "GPL-2.0+",
         "Name": "Shutdown or Switch",
         "Name[en_GB]": "Shutdown or Switch",
